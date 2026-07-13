@@ -1,6 +1,6 @@
 # Practice Radar data
 
-Versioned public edition receipts and samples for [Practice Radar](https://actablesite.com/practice-radar), plus encrypted per-subscriber weekly editions.
+Versioned public edition receipts and samples, plus encrypted per-subscriber weekly editions.
 
 - `public/summary.json`: source and build receipt
 - `public/sample.json` and `public/sample.csv`: 15-row public sample

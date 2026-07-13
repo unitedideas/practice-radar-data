@@ -1,0 +1,50 @@
+{
+  "profile": "tabular-data-package",
+  "name": "practice-radar-public-sample",
+  "title": "Practice Radar weekly behavioral-health organization NPI sample",
+  "description": "A 15-row public sample from a weekly filtered view of newly enumerated Type 2 behavioral-health organizations in CMS NPPES. See public/summary.json for the current receipt, taxonomy scope, and limitations.",
+  "homepage": "https://actablesite.com/new-behavioral-health-practices",
+  "keywords": [
+    "behavioral health",
+    "CMS",
+    "healthcare data",
+    "NPI",
+    "NPPES",
+    "provider enumeration"
+  ],
+  "sources": [
+    {
+      "title": "CMS NPPES Data Dissemination",
+      "path": "https://download.cms.gov/nppes/NPI_Files.html"
+    }
+  ],
+  "resources": [
+    {
+      "profile": "tabular-data-resource",
+      "name": "public-sample",
+      "path": "public/sample.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          { "name": "npi", "type": "string" },
+          { "name": "organization", "type": "string" },
+          { "name": "address_1", "type": "string" },
+          { "name": "address_2", "type": "string" },
+          { "name": "city", "type": "string" },
+          { "name": "state", "type": "string" },
+          { "name": "postal_code", "type": "string" },
+          { "name": "telephone", "type": "string" },
+          { "name": "fax", "type": "string" },
+          { "name": "enumeration_date", "type": "date" },
+          { "name": "last_update_date", "type": "date" },
+          { "name": "focus", "type": "string" },
+          { "name": "taxonomy_code", "type": "string" },
+          { "name": "authorized_official", "type": "string" },
+          { "name": "authorized_official_title", "type": "string" },
+          { "name": "authorized_official_phone", "type": "string" }
+        ]
+      }
+    }
+  ]
+}

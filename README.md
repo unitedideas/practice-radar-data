@@ -2,6 +2,20 @@
 
 Weekly, versioned evidence for newly enumerated Type 2 behavioral-health organizations in the CMS National Plan and Provider Enumeration System (NPPES).
 
+## Current edition receipt
+
+The 2026-06-29 through 2026-07-05 edition screened 2,229 newly enumerated Type 2 organizations and selected 423 after the disclosed behavioral-health filter.
+
+| State evidence page | Code | Selected organizations |
+| --- | --- | ---: |
+| [California](https://actablesite.com/new-behavioral-health-practices/california) | CA | 55 |
+| [Texas](https://actablesite.com/new-behavioral-health-practices/texas) | TX | 36 |
+| [Florida](https://actablesite.com/new-behavioral-health-practices/florida) | FL | 30 |
+| [North Carolina](https://actablesite.com/new-behavioral-health-practices/north-carolina) | NC | 30 |
+| [Washington](https://actablesite.com/new-behavioral-health-practices/washington) | WA | 17 |
+
+These counts measure NPI enumeration during the stated period, not practice openings or buying intent.
+
 ## Inspect the current edition
 
 - [`public/summary.json`](public/summary.json) is the machine-readable source and build receipt, including the measurement period, source-file hashes, screened and selected counts, state distribution, taxonomy scope, and limitations.

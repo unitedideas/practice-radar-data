@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "editions": [
+    {
+      "edition_end": "2026-07-05",
+      "period": {
+        "start": "2026-06-29",
+        "end": "2026-07-05"
+      },
+      "selected_unique_records": 423,
+      "newly_enumerated_type_2_organizations": 2229,
+      "states_and_territories": 46,
+      "summary_path": "public/editions/2026-07-05/summary.json",
+      "sample_path": "public/editions/2026-07-05/sample.json",
+      "sample_csv_path": "public/editions/2026-07-05/sample.csv"
+    }
+  ]
+}

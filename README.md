@@ -8,11 +8,11 @@ The 2026-06-29 through 2026-07-05 edition screened 2,229 newly enumerated Type 2
 
 | State evidence page | Code | Selected organizations |
 | --- | --- | ---: |
-| [California](https://actablesite.com/new-behavioral-health-practices/california) | CA | 55 |
-| [Texas](https://actablesite.com/new-behavioral-health-practices/texas) | TX | 36 |
-| [Florida](https://actablesite.com/new-behavioral-health-practices/florida) | FL | 30 |
-| [North Carolina](https://actablesite.com/new-behavioral-health-practices/north-carolina) | NC | 30 |
-| [Washington](https://actablesite.com/new-behavioral-health-practices/washington) | WA | 17 |
+| California | CA | 55 |
+| Texas | TX | 36 |
+| Florida | FL | 30 |
+| North Carolina | NC | 30 |
+| Washington | WA | 17 |
 
 These counts measure NPI enumeration during the stated period, not practice openings or buying intent.
 
@@ -21,10 +21,10 @@ These counts measure NPI enumeration during the stated period, not practice open
 - [`public/summary.json`](public/summary.json) is the machine-readable source and build receipt, including the measurement period, source-file hashes, screened and selected counts, state distribution, taxonomy scope, and limitations.
 - [`public/sample.csv`](public/sample.csv) and [`public/sample.json`](public/sample.json) contain the same 15 public sample rows.
 - [`datapackage.json`](datapackage.json) describes the public CSV with a portable tabular-data schema.
-- The [free current-edition explorer](https://actablesite.com/new-behavioral-health-practices) renders the receipt, all nonzero state counts, taxonomy scope, and sample without an account.
-- The [dated weekly report archive](https://actablesite.com/new-behavioral-health-practices/reports) preserves organization-only receipts and public samples by edition.
+- The [free 15-row Apify preview](https://apify.com/actablesite/new-behavioral-health-practices-actor/examples/new-behavioral-health-practices-free-weekly-preview) duplicates the deterministic current sample into the buyer's own Apify account without a full-edition charge.
+- [`public/editions.json`](public/editions.json) indexes dated organization-only receipts and public samples preserved in this repository.
 
-The [full Practice Radar feed](https://actablesite.com/practice-radar) is available as a $19 one-time current edition or a $39/month subscription refreshed weekly. Both add every selected row plus published practice address, telephone, fax, authorized-official, enumeration-date, and taxonomy fields. Purchase is never automatic; the product page shows delivery, renewal status, cancellation terms, support, and limitations before checkout.
+The [hosted Apify Actor](https://apify.com/actablesite/new-behavioral-health-practices-actor) offers a $9 full weekly edition with every validated selected row. Buyer-paid platform usage is separate. The full-edition event is charged only after the latest CMS archive passes parsing, validation, and record-count gates; failed validation does not deliver or charge the full edition.
 
 ## Reproducible scope
 

@@ -3,7 +3,7 @@
   "name": "practice-radar-public-sample",
   "title": "Practice Radar weekly behavioral-health organization NPI sample",
   "description": "A 15-row public sample from a weekly filtered view of newly enumerated Type 2 behavioral-health organizations in CMS NPPES. See public/summary.json for the current receipt, taxonomy scope, and limitations.",
-  "homepage": "https://actablesite.com/new-behavioral-health-practices",
+  "homepage": "https://apify.com/actablesite/new-behavioral-health-practices-actor/examples/new-behavioral-health-practices-free-weekly-preview",
   "keywords": [
     "behavioral health",
     "CMS",

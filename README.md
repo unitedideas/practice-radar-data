@@ -26,6 +26,10 @@ These counts measure NPI enumeration during the stated period, not practice open
 
 The [full Practice Radar feed](https://actablesite.com/practice-radar) is available as a $19 one-time current edition or a $39/month subscription refreshed weekly. Both add every selected row plus published practice address, telephone, fax, authorized-official, enumeration-date, and taxonomy fields. Purchase is never automatic; the product page shows delivery, renewal status, cancellation terms, support, and limitations before checkout.
 
+## Reproduce the weekly analysis
+
+[`notebooks/weekly-analysis.ipynb`](notebooks/weekly-analysis.ipynb) charts the aggregate state distribution, validates the 15-row public sample, and states the interpretation limits alongside the output. It reads the attached Kaggle dataset when available and otherwise falls back to this repository's versioned public files, so the same notebook can run in Kaggle, Colab, or a local Jupyter environment.
+
 ## Reproducible scope
 
 Each edition starts with the official CMS NPPES weekly V2 file and then:

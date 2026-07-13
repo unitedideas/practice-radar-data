@@ -22,6 +22,7 @@ These counts measure NPI enumeration during the stated period, not practice open
 - [`public/sample.csv`](public/sample.csv) and [`public/sample.json`](public/sample.json) contain the same 15 public sample rows.
 - [`datapackage.json`](datapackage.json) describes the public CSV with a portable tabular-data schema.
 - The [free current-edition explorer](https://actablesite.com/new-behavioral-health-practices) renders the receipt, all nonzero state counts, taxonomy scope, and sample without an account.
+- The [dated weekly report archive](https://actablesite.com/new-behavioral-health-practices/reports) preserves organization-only receipts and public samples by edition.
 
 The [full Practice Radar feed](https://actablesite.com/practice-radar) is a $39/month national CSV subscription refreshed weekly. It adds every selected row plus published practice address, telephone, fax, authorized-official, enumeration-date, and taxonomy fields. Purchase is never automatic; the product page shows delivery, renewal, cancellation, support, and terms before checkout.
 

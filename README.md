@@ -24,7 +24,7 @@ These counts measure NPI enumeration during the stated period, not practice open
 - The [free current-edition explorer](https://actablesite.com/new-behavioral-health-practices) renders the receipt, all nonzero state counts, taxonomy scope, and sample without an account.
 - The [dated weekly report archive](https://actablesite.com/new-behavioral-health-practices/reports) preserves organization-only receipts and public samples by edition.
 
-The [full Practice Radar feed](https://actablesite.com/practice-radar) is available as a $19 one-time current edition or a $39/month subscription refreshed weekly. Both add every selected row plus published practice address, telephone, fax, authorized-official, enumeration-date, and taxonomy fields. Purchase is never automatic; the product page shows delivery, renewal status, cancellation terms, support, and limitations before checkout.
+For a current hosted run, start with the [free 15-row Apify preview](https://apify.com/actablesite/new-behavioral-health-practices-actor/examples/new-behavioral-health-practices-free-weekly-preview). The linked [New Behavioral Health Practices Weekly Actor](https://apify.com/actablesite/new-behavioral-health-practices-actor) offers a $9 full weekly edition with every validated selected row; Apify handles the run, charge authorization, and JSON, CSV, or Excel delivery. Buyer-paid platform usage is separate. The full edition is charged only after the current CMS archive passes the Actor's validation gates.
 
 ## Reproducible scope
 

@@ -27,22 +27,70 @@
       "mediatype": "text/csv",
       "schema": {
         "fields": [
-          { "name": "npi", "type": "string" },
-          { "name": "organization", "type": "string" },
-          { "name": "address_1", "type": "string" },
-          { "name": "address_2", "type": "string" },
-          { "name": "city", "type": "string" },
-          { "name": "state", "type": "string" },
-          { "name": "postal_code", "type": "string" },
-          { "name": "telephone", "type": "string" },
-          { "name": "fax", "type": "string" },
-          { "name": "enumeration_date", "type": "date" },
-          { "name": "last_update_date", "type": "date" },
-          { "name": "focus", "type": "string" },
-          { "name": "taxonomy_code", "type": "string" },
-          { "name": "authorized_official", "type": "string" },
-          { "name": "authorized_official_title", "type": "string" },
-          { "name": "authorized_official_phone", "type": "string" }
+          {
+            "name": "npi",
+            "type": "string"
+          },
+          {
+            "name": "organization",
+            "type": "string"
+          },
+          {
+            "name": "address_1",
+            "type": "string"
+          },
+          {
+            "name": "address_2",
+            "type": "string"
+          },
+          {
+            "name": "city",
+            "type": "string"
+          },
+          {
+            "name": "state",
+            "type": "string"
+          },
+          {
+            "name": "postal_code",
+            "type": "string"
+          },
+          {
+            "name": "telephone",
+            "type": "string"
+          },
+          {
+            "name": "fax",
+            "type": "string"
+          },
+          {
+            "name": "enumeration_date",
+            "type": "date"
+          },
+          {
+            "name": "last_update_date",
+            "type": "date"
+          },
+          {
+            "name": "focus",
+            "type": "string"
+          },
+          {
+            "name": "taxonomy_code",
+            "type": "string"
+          },
+          {
+            "name": "authorized_official",
+            "type": "string"
+          },
+          {
+            "name": "authorized_official_title",
+            "type": "string"
+          },
+          {
+            "name": "authorized_official_phone",
+            "type": "string"
+          }
         ]
       }
     }

@@ -21,7 +21,8 @@ These counts measure NPI enumeration during the stated period, not practice open
 - [`public/summary.json`](public/summary.json) is the machine-readable source and build receipt, including the measurement period, source-file hashes, screened and selected counts, state distribution, taxonomy scope, and limitations.
 - [`public/sample.csv`](public/sample.csv) and [`public/sample.json`](public/sample.json) contain the same 15 public sample rows.
 - [`datapackage.json`](datapackage.json) describes the public CSV with a portable tabular-data schema.
-- The [free 15-row Apify preview](https://apify.com/actablesite/new-behavioral-health-practices-actor/examples/new-behavioral-health-practices-free-weekly-preview) duplicates the deterministic current sample into the buyer's own Apify account without a full-edition charge.
+- The [free 15-row Apify preview](https://console.apify.com/create-task-from-example/mWSjyRgMOUIk9IiJr) duplicates the deterministic current sample into the buyer's own Apify account without a full-edition charge.
+- Credentialing and provider-enrollment teams can use the [credentialing-specific free preview](https://console.apify.com/create-task-from-example/Z22XvAAbiUlbxnDCw), which preserves the same source fields and verification limits while starting with that workflow's filters.
 - [`public/editions.json`](public/editions.json) indexes dated organization-only receipts and public samples preserved in this repository.
 
 The [hosted Apify Actor](https://apify.com/actablesite/new-behavioral-health-practices-actor) offers a $9 full weekly edition with every validated selected row. Buyer-paid platform usage is separate. The full-edition event is charged only after the latest CMS archive passes parsing, validation, and record-count gates; failed validation does not deliver or charge the full edition.

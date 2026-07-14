@@ -1,6 +1,6 @@
-# Practice Radar data
+# Behavioral-health NPI data for credentialing and provider-enrollment research
 
-Weekly, versioned evidence for newly enumerated Type 2 behavioral-health organizations in the CMS National Plan and Provider Enumeration System (NPPES).
+Practice Radar publishes weekly, versioned evidence for newly enumerated Type 2 behavioral-health organizations in the CMS National Plan and Provider Enumeration System (NPPES). Credentialing firms, provider-enrollment consultants, medical-billing teams, and healthcare vendors can use the organization signal to build a current research queue.
 
 ## Current edition receipt
 
@@ -15,6 +15,10 @@ The 2026-06-29 through 2026-07-05 edition screened 2,229 newly enumerated Type 2
 | Washington | WA | 17 |
 
 These counts measure NPI enumeration during the stated period, not practice openings or buying intent.
+
+## What the signal can and cannot do
+
+The feed supplies a current organization entity, Type 2 NPI, published location, telephone, taxonomy, enumeration date, and source receipt. It is not a credentialing file: NPI enumeration does not establish licensure, CAQH status, payer enrollment, panel participation, active operation, service availability, need, decision authority, or buying intent. Verify every row before operational use or contact.
 
 ## Inspect the current edition
 

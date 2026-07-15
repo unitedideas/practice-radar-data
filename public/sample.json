@@ -1,12 +1,12 @@
 {
   "receipt": {
     "schema_version": 1,
-    "generated_at": "2026-07-13T04:27:35.744Z",
+    "generated_at": "2026-07-14T20:12:41.510Z",
     "source": {
       "publisher": "Centers for Medicare & Medicaid Services",
       "page_url": "https://download.cms.gov/nppes/NPI_Files.html",
-      "file_url": "https://download.cms.gov/nppes/NPPES_Data_Dissemination_062926_070526_Weekly_V2.zip",
-      "zip_sha256": "9720878bff2d4e6370942d0028c4ef834380d9c53db61ca5805cbfa47e579422",
+      "file_url": "https://download.cms.gov/nppes/NPPES_Data_Dissemination_070626_071226_Weekly_V2.zip",
+      "zip_sha256": "dfbe9f3063cee4050e3390fe03f5c0d6f0ff9babec71b7f777672343c3d177e5",
       "csv_sha256": "9ad8dfe45e3b7a989e928705794ab129d8d8af5deed0da8f9423e54b802af4d9"
     },
     "period": {

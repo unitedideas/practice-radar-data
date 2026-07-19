@@ -4,15 +4,15 @@ Practice Radar publishes weekly, versioned evidence for newly enumerated Type 2 
 
 ## Current edition receipt
 
-The 2026-07-06 through 2026-07-12 edition screened 2,722 newly enumerated Type 2 organizations and selected 486 after the disclosed behavioral-health filter.
+The 2026-06-29 through 2026-07-05 edition screened 2,229 newly enumerated Type 2 organizations and selected 423 after the disclosed behavioral-health filter.
 
 | State evidence page | Code | Selected organizations |
 | --- | --- | ---: |
-| California | CA | 49 |
+| California | CA | 55 |
 | Texas | TX | 36 |
-| Florida | FL | 37 |
+| Florida | FL | 30 |
 | North Carolina | NC | 30 |
-| Washington | WA | 9 |
+| Washington | WA | 17 |
 
 These counts measure NPI enumeration during the stated period, not practice openings or buying intent.
 
@@ -30,7 +30,10 @@ The feed supplies a current organization entity, Type 2 NPI, published location,
 - Credentialing and provider-enrollment teams can use the [credentialing-specific free preview](https://console.apify.com/create-task-from-example/Z22XvAAbiUlbxnDCw), which preserves the same source fields and verification limits while starting with that workflow's filters.
 - [`public/editions.json`](public/editions.json) indexes dated organization-only receipts and public samples preserved in this repository.
 
-The [hosted Apify Actor](https://apify.com/actablesite/new-behavioral-health-practices-actor) offers a $9 full weekly edition with every validated selected row. Buyer-paid platform usage is separate. The full-edition event is charged only after the latest CMS archive passes parsing, validation, and record-count gates; failed validation does not deliver or charge the full edition.
+## Get every current row
+
+- [Buy the current national CSV for **$19 once**](https://buy.stripe.com/6oUdR29Ue7rDg80fLd6oo0i?client_reference_id=github_practice_radar_data&utm_source=github&utm_medium=repository&utm_campaign=practice_radar_edition) for private browser delivery with no Apify account, subscription, or renewal. The purchased edition does not update.
+- Use the [hosted Apify Actor](https://apify.com/actablesite/new-behavioral-health-practices-actor) when the full edition belongs in an automated workflow. It charges one **$9 event** plus bounded buyer-paid platform usage and runs only after the latest CMS archive passes parsing, validation, and record-count gates.
 
 ## Reproducible scope
 

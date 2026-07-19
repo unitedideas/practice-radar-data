@@ -30,7 +30,10 @@ The feed supplies a current organization entity, Type 2 NPI, published location,
 - Credentialing and provider-enrollment teams can use the [credentialing-specific free preview](https://console.apify.com/create-task-from-example/Z22XvAAbiUlbxnDCw), which preserves the same source fields and verification limits while starting with that workflow's filters.
 - [`public/editions.json`](public/editions.json) indexes dated organization-only receipts and public samples preserved in this repository.
 
-The [hosted Apify Actor](https://apify.com/actablesite/new-behavioral-health-practices-actor) offers a $9 full weekly edition with every validated selected row. Buyer-paid platform usage is separate. The full-edition event is charged only after the latest CMS archive passes parsing, validation, and record-count gates; failed validation does not deliver or charge the full edition.
+## Get every current row
+
+- [Buy the current national CSV for **$19 once**](https://buy.stripe.com/6oUdR29Ue7rDg80fLd6oo0i?client_reference_id=github_practice_radar_data&utm_source=github&utm_medium=repository&utm_campaign=practice_radar_edition) for private browser delivery with no Apify account, subscription, or renewal. The purchased edition does not update.
+- Use the [hosted Apify Actor](https://apify.com/actablesite/new-behavioral-health-practices-actor) when the full edition belongs in an automated workflow. It charges one **$9 event** plus bounded buyer-paid platform usage and runs only after the latest CMS archive passes parsing, validation, and record-count gates.
 
 ## Reproducible scope
 

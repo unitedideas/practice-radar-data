@@ -4,15 +4,15 @@ Practice Radar publishes weekly, versioned evidence for newly enumerated Type 2 
 
 ## Current edition receipt
 
-The 2026-07-06 through 2026-07-12 edition screened 2,722 newly enumerated Type 2 organizations and selected 486 after the disclosed behavioral-health filter.
+The 2026-07-13 through 2026-07-19 edition screened 2,631 newly enumerated Type 2 organizations and selected 450 after the disclosed behavioral-health filter.
 
 | State evidence page | Code | Selected organizations |
 | --- | --- | ---: |
-| California | CA | 49 |
-| Texas | TX | 36 |
-| Florida | FL | 37 |
-| North Carolina | NC | 30 |
-| Washington | WA | 9 |
+| California | CA | 36 |
+| Texas | TX | 35 |
+| Florida | FL | 26 |
+| North Carolina | NC | 24 |
+| Washington | WA | 18 |
 
 These counts measure NPI enumeration during the stated period, not practice openings or buying intent.
 
